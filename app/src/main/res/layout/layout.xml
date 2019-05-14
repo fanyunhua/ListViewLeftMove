@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/getLine"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ff0000"
+        android:textColor="#12a1a8"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="收藏" />
+
+    <Button
+        android:id="@+id/delBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#12a1a8"
+        android:layout_weight="1"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="删除" />
+
+</LinearLayout>
